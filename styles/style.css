@@ -1,0 +1,231 @@
+#navbar-photo {
+    max-height: 48px;
+}
+
+.tweet {
+    /* max-width: 300px; */
+    /* height: 250px; */
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+#tweetContainer {
+    flex-wrap: wrap;
+    height: 60vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.hidden {
+    display: none;
+}
+.box {
+    height: 250px;
+}
+#tweetContent {
+
+    margin-top: 30px;
+
+}
+
+#stocks {
+    background-color: ivory;
+}
+body {
+    /* margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px; */
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+ 
+
+ .trumpPicture {
+     background-image: url('../img/trump-face.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+  /* New twitter card styles */
+
+.tweetCard {
+    display: flex;
+    max-width: 450px;
+    border: 1px solid black;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px 50px 30px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(192,222,237,.75));
+}
+
+.tweetMessage p {
+    padding-left: 0px;
+}
+
+.twitterUserHeader {
+    display: flex;
+    text-align:left;
+}
+
+.twitterProfilePic {
+    width: 35px;
+}
+
+.twitterUserName {
+    margin: 0;
+    font-weight: bold;
+}
+
+.twitterHandle {
+    font-size: .85em;
+}
+
+.tweetMessage {
+    text-align: justify;
+}
+
+.tweetFooter {
+    font-size: .85em;
+    padding: 2px;
+    height: 25px;
+    text-align: left;
+}
+
+.tweetFooterPadding {
+    padding-right: 15px;
+}
+
+.navbarSiteName {
+	/* display: inline-block; */
+	/* padding: 0 2rem 0 .5rem; */
+	font-size: 1.5rem;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+  }
+
+  #myChart {
+      padding: 0;
+  }
+
+  #mainContent {
+      padding: 0;
+  }
+
+  #chartDiv {
+      position: relative;
+
+  }
+
+  #tweetDateDiv {
+      text-align: center;
+  }
+
+  #mediaTweet {
+    
+      width: 100%;
+  }
+
+
+
+  .tweetNumbers {
+      padding-left: 5px;
+  }
+
+  h2 {
+      font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h5 {
+      font-size: 1em;
+  }
+
+  .isNasdaq {
+    background-color: hsl(141, 71%, 48%);
+    border-color: hsl(141, 71%, 48%);
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .isOil {
+    background-color: rgb(237, 110, 89);
+    border-color: rgb(237, 110, 89);
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .isGold {
+    background-color: hsl(348, 100%, 61%);
+    border-color: hsl(348, 100%, 61%);
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .isSP500 {
+    background-color: rgb(153, 119, 209);
+    border-color: rgb(153, 119, 209);
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .isDow {
+    background-color: hsl(204, 86%, 53%);
+    border-color: hsl(204, 86%, 53%);
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  .stockBtn {
+      margin: 5px;
+      border-radius: 5px;
+  }
+
+  #deleteButtonContainer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding-right: 10px;
+  }
+
+  body {
+      background: rgb(54, 54, 54);
+      /* padding: 0px; */
+      
+  }
+
+  h6 {
+      font-size: .8em;
+  }
+
+  .emphasizeGreen {
+      color: rgb(32, 188, 86);
+  }
+
+  .emphasizeOrange {
+   color: rgb(237, 110, 89);
+  }
+
+  .emphasizePurple {
+    color: rgb(128, 69, 228);
+  }
