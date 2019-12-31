@@ -1,4 +1,4 @@
-# Rendering Returns 
+# Trump vs The Markets
 A correlation of President Trump's tweets and the stock market.
 
 ![alt text](trumpMarket.gif)
