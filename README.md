@@ -1,5 +1,7 @@
-# Rendering Returns  [![Build Status](https://travis-ci.org/mosaic43/twitter-power.svg?branch=master)](https://travis-ci.org/mosaic43/twitter-power)
-A correlation of Trump tweets and the stock market.
+# Rendering Returns 
+A correlation of President Trump's tweets and the stock market.
+
+![alt text](trumpMarket.gif)
 
 ## Collaborators
 
